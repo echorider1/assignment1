@@ -1,0 +1,9 @@
+$col-primary: aliceblue;
+$col-secondary: #333;
+$spacer: 25;
+
+@mixin squareBox($size, $radius) {
+    width: $size;
+    height: $size;
+    radius: $radius;
+}
